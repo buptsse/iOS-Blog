@@ -1,0 +1,13 @@
+百度旅游代码重构工作
+（1）登录注册模块重构
+1.1导入登录注册通用组件（finish）             
+Time： 11.10 open  11.20 close
+关于modalviewcontroller的关闭。
+iOS5和iOS5以下关闭方式的不同：self.parentviewcontroller self.presentingViewcontroller
+
+1.2登录互通信息持久化   （undergoing）
+Time：11.21 open
+
+1.3轻量级数据存储 	   （undergoing）
+Time 11.21 open
+如何平滑过渡到新版本代码。确保用户登录信息还在。.l..我
