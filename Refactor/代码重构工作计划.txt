@@ -10,4 +10,28 @@ Time：11.21 open
 
 1.3轻量级数据存储 	   （undergoing）
 Time 11.21 open
-如何平滑过渡到新版本代码。确保用户登录信息还在。.l..我
+如何平滑过渡到新版本代码。确保用户登录信息还在
+1.3.1KoalaFramework的引入 
+link binary with path & user header search path的设置。
+user header search path 和 header search path 区别
+Use the User Header Search Paths for paths you want searched for #include "..." and use the Header Search Paths for #include <...>. Of course, if you check the option to Always Search User Paths, then #include <...> will also work for the user paths.
+1.3.2单实例,objectextendtion,common.h，litestorage的引入
+健壮性和释放的简化。轻量级数据层的引入.
+Your 3rd party framework is probable using a category on a existing (apple) class. But to load/find the category you need to add the -ObjC flag in the build settings under Other Linker Flags
+
+
+1.3.3信号控制中心
+
+
+
+
+
+
+
+具体配置先选项：
+
+git config --global gui.encoding utf-8
+git config --global i18n.commitencoding utf-8
+git config --global i18n.logoutputencoding gbk
+
+git config --global core.quotepath = false
